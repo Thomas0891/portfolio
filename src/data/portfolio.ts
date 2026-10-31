@@ -1,11 +1,10 @@
 /**
- * Central portfolio data — generated from Sushmita's resume (Sushmita_dasari.pdf).
+ * Central portfolio data — generated from S Thomas's resume.
  * Every fact on the site comes from this file. Update it here and the whole site follows.
  * Nothing here should be added unless it appears on the resume.
  */
 
 export type Palette = { from: string; via: string; to: string; accent: string };
-
 
 export const profile = {
   fullName: 'Thomas Joseph',
@@ -21,8 +20,8 @@ export const profile = {
   location: 'Bhubaneswar, Odisha, India',
   email: 'thomasjoseph0891@gmail.com',
   links: {
-    linkedin: 'https://www.linkedin.com/in/YOUR_LINKEDIN/',
-    github: 'https://github.com/YOUR_GITHUB_USERNAME',
+    linkedin: 'https://www.linkedin.com/in/thomas-joseph28/',
+    github: 'https://github.com/Thomas0891',
   },
 
   resumePdf: '/assets/S Thomas_Resume.pdf',
@@ -31,37 +30,50 @@ export const profile = {
     srcSet: '/assets/portrait-420.png 420w, /assets/portrait-720.png 720w, /assets/portrait-1100.png 1100w',
     alt: 'Portrait of Thomas Joseph',
   },
-  interests: ['System Design', 'Cloud Computing (AWS)', 'Machine Learning'],
+  interests: ['Machine Learning', 'Deep Learning', 'Generative AI'],
 };
 
 export const education = [
   {
     school: 'Centurion University of Technology and Management (CUTM)',
     place: 'Bhubaneswar, Odisha',
-    degree: 'Bachelor of Technology — Artificial Intelligence and Machine Learning',
-    period: 'October 2023 – Present',
-    score: 'CGPA 8.10',
+    degree: 'Bachelor of Technology — Computer Science and Engineering',
+    period: '2023 – 2027',
+    score: 'CGPA 8.6/10',
   },
   {
-    school: 'Oneness International College',
-    place: 'Bhubaneswar, Odisha',
-    degree: 'Computer Science — Intermediate',
-    period: 'June 2021 – May 2022',
-    score: 'Score 925/1000',
+    school: 'Oneness International School',
+    place: '',
+    degree: 'Higher Secondary Education, Class XII',
+    period: '2021 – 2022',
+    score: 'Percentage 58.78',
+  },
+  {
+    school: 'N.D.R.C. Government High School',
+    place: '',
+    degree: 'Secondary Education, Class X',
+    period: '2019 – 2020',
+    score: 'Percentage 51.64',
   },
 ];
 
 export const experience = [
   {
-    company: 'Technical Hub Pvt Ltd',
-    role: 'Trainee',
-    place: 'Surampalem, AP',
-    period: 'May 2025 – June 2026',
+    company: 'YHills Edutech Private Limited',
+    role: 'Data Scientist Intern',
+    place: '',
+    period: 'May 2026 – Jul 2026',
     points: [
-      'Completed one year of intensive Full-Stack Development (FSD) training covering frontend, backend, database integration, and deployment workflows.',
-      'Developed responsive and functional web applications by implementing user interfaces, server-side logic, and database connectivity.',
-      'Deployed and managed web applications while applying version control, debugging, and end-to-end development practices.',
+      'Three-month data science internship, completed with a Data Science Certificate.',
+      'Worked on data analysis, visualization, and ML workflows.',
     ],
+  },
+  {
+    company: 'Simplilearn – SkillUp',
+    role: 'Data Science Intern',
+    place: '',
+    period: 'Nov 2025 – Jan 2026',
+    points: ['Three-month data science internship through Simplilearn – SkillUp.'],
   },
 ];
 
@@ -185,6 +197,7 @@ export const projects: Project[] = [
     motif: 'flow',
   },
 ];
+
 export type Achievement = {
   id: string;
   title: string;
@@ -203,68 +216,29 @@ export const achievements: Achievement[] = [
     laurel: 'Best Project',
   },
   {
-    id: 'yhills-certificate',
-    title: 'Data Science Certificate',
-    org: 'YHills Edutech',
-    detail: 'Completed a data science internship covering data analysis, visualization, and ML workflows.',
-    laurel: 'Certified',
-    // link: 'https://...',
-  },
-  {
-    id: 'google-prompting-essentials',
-    title: 'Prompting Essentials',
-    org: 'Google',
-    detail: 'Certification in effective prompting for generative AI tools (Jul 2026).',
-    laurel: 'Google Certified',
-    // link: 'https://...',
-  },
-  {
-    id: 'genai-studio',
-    title: 'Introduction to Generative AI Studio',
-    org: 'Google Cloud • Simplilearn',
-    detail: 'Hands-on introduction to building with generative AI on Google Cloud (Jan 2026).',
-    laurel: 'Gen AI',
-    // link: 'https://...',
-  },
-  {
     id: 'ai-ml-workshop',
     title: 'AI/ML Workshop Coordinator',
     org: 'Technical Fest, Centurion University',
     detail: 'Organized a hands-on ML and Deep Learning workshop for 150+ students, demonstrating CNN-based image classification in Python.',
     laurel: '150+ Students',
   },
- 
+  {
+    id: 'data-science-club-lead',
+    title: 'Data Science Club Lead',
+    org: 'Department of CSE, Centurion University',
+    detail: 'Led 20+ members in weekly sessions on Python, EDA, and ML model building, and mentored 10+ teams in Kaggle competitions and project development.',
+    laurel: 'Club Lead',
+  },
 ];
 
-// export type Certification = { issuer: string; name: string; link: string };
-//
-// export const certifications: Certification[] = [
-//   { issuer: 'NPTEL', name: 'Database Management System', link: 'https://drive.google.com/file/d/1MqkJHchXeaGD4S8mzPmEGxEYddAsxAjN/view?usp=drive_link' },
-//   { issuer: 'NPTEL', name: 'Fundamentals of Artificial Intelligence', link: 'https://drive.google.com/file/d/1GqyUQ-lrE-bHaN457t6fIdssgGG4HMXf/view?usp=drive_link' },
-//   { issuer: 'NPTEL', name: 'Deep Learning', link: 'https://drive.google.com/file/d/1PWSRP5SQDPzkoTCF3A24eIJoSpTwgsff/view?usp=sharing' },
-//   { issuer: 'AWS', name: 'AWS Certified AI Practitioner', link: 'https://drive.google.com/file/d/1h8e5p0a9T6f5gBaOP2ROfwWHZfkkspGn/view?usp=drive_link' },
-//   { issuer: 'AWS', name: 'AWS Academy Graduate – Cloud Foundations', link: 'https://www.credly.com/badges/2d4810f9-3dbe-444d-99b9-61312ea5e7df/public_url' },
-//   { issuer: 'MongoDB', name: 'MongoDB Certified Associate Developer', link: 'https://www.credly.com/badges/fd3362bd-743a-4c4d-a68e-b1fdc5d46811/public_url' },
-//   { issuer: 'GitHub', name: 'GitHub Foundations', link: 'https://drive.google.com/file/d/1o0fkCAMRWTg1oMwxlqu6t6wnOpBv66Vq/view?usp=sharing' },
-//   { issuer: 'Pearson', name: 'IT Specialist – HTML and CSS', link: 'https://www.credly.com/badges/e4a55298-e396-41d8-a032-283aafe9fab7/public_url' },
-//   { issuer: 'Oracle', name: 'Java Certified Foundations Associate', link: 'https://drive.google.com/file/d/1g-yyceHtLg_k2RWiOIJqH0MMcGlaH90P/view?usp=sharing' },
-//   { issuer: 'Oracle', name: 'Oracle Certified Foundations Associate – Database', link: 'https://drive.google.com/file/d/10-DzabbcH2vHrI6bAohoT8czKRZMa2kV/view?usp=drive_link' },
-//   { issuer: 'Cisco', name: 'HTML Essentials', link: 'https://www.credly.com/badges/eb27ca95-3b2a-4948-bef9-0385d1d49055/public_url' },
-//   { issuer: 'Cisco', name: 'CSS Essentials', link: 'https://www.credly.com/badges/3b37497f-6a61-4889-af3c-ed337a460a0b/public_url' },
-//   { issuer: 'Cisco', name: 'JavaScript Essentials 1', link: 'https://www.credly.com/badges/9cdd4d55-6ecc-463f-b254-811ccdd0539c/public_url' },
-//   { issuer: 'Cisco', name: 'JavaScript Essentials 2', link: 'https://www.credly.com/badges/0e1b036e-4318-4c8e-b750-2aca77314442/public_url' },
-//   { issuer: 'Cisco', name: 'Python Essentials 1', link: 'https://www.credly.com/badges/0e21e3eb-d8ef-4770-95d7-dcbd6f8696b1/public_url' },
-//   { issuer: 'Udemy', name: 'Microsoft Azure Hands-On Training (AZ-900, AZ-104, AZ-305)', link: 'https://drive.google.com/file/d/1KrXClhY0nJ3Acxs7DioNf4Q1rpaMvgPT/view?usp=sharing' },
-// ];
-
-// Kept so files that import `certifications` don't break while the old list is commented out.
-// Delete these lines if nothing imports them.
 export type Certification = { issuer: string; name: string; link: string };
 
-export const certifications: Certification[] = [];
-
-
-
+// Add your certificate URLs in `link` (Google Drive / Credly). Empty link = no real page yet.
+export const certifications: Certification[] = [
+  { issuer: 'YHills Edutech', name: 'Data Science Certificate', link: '' },
+  { issuer: 'Google', name: 'Google Prompting Essentials', link: '' },
+  { issuer: 'Google Cloud & Simplilearn', name: 'Introduction to Generative AI Studio', link: '' },
+];
 
 export type Skill = { name: string; mono: string; note?: string };
 export type SkillCategory = { id: string; title: string; subtitle: string; skills: Skill[] };
@@ -273,110 +247,83 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'languages',
     title: 'Languages',
-    subtitle: 'Python is the primary language',
+    subtitle: 'Python comes first',
     skills: [
-      { name: 'Python', mono: 'Py',note: 'Primary' },
+      { name: 'Python', mono: 'Py', note: 'Primary' },
+      { name: 'SQL', mono: 'Sq' },
       { name: 'Java', mono: 'Jv' },
       { name: 'C', mono: 'C' },
-      { name: 'C++', mono: 'C+' },
-    ],
-  },
-  {
-    id: 'frontend',
-    title: 'Frontend',
-    subtitle: 'Interfaces & the web platform',
-    skills: [
-      { name: 'React', mono: 'Re' },
+      { name: 'JavaScript', mono: 'Js' },
       { name: 'HTML', mono: 'Ht' },
       { name: 'CSS', mono: 'Cs' },
-      { name: 'JavaScript', mono: 'Js' },
     ],
   },
   {
-    id: 'backend',
-    title: 'Backend',
-    subtitle: 'Server-side logic',
+    id: 'ml',
+    title: 'Machine Learning',
+    subtitle: 'Models, features & evaluation',
     skills: [
-      { name: 'Node.js', mono: 'No' },
-      { name: 'Express.js', mono: 'Ex' },
+      { name: 'Regression', mono: 'Rg' },
+      { name: 'Classification', mono: 'Cl' },
+      { name: 'Model Evaluation', mono: 'Me' },
+      { name: 'Feature Engineering', mono: 'Fe' },
+      { name: 'Scikit-learn', mono: 'Sk' },
     ],
   },
   {
-    id: 'infra',
-    title: 'Infra & Tools',
-    subtitle: 'Shipping & architecture',
+    id: 'dl',
+    title: 'Deep Learning',
+    subtitle: 'Vision & neural networks',
     skills: [
-      { name: 'Docker', mono: 'Dk' },
-      { name: 'Docker Compose', mono: 'Dc' },
-      { name: 'REST APIs', mono: 'Ap' },
-      { name: 'Microservices', mono: 'Ms' },
-      { name: 'JWT Auth', mono: 'Jw' },
+      { name: 'CNNs', mono: 'Cn' },
+      { name: 'Transfer Learning', mono: 'Tl' },
+      { name: 'TensorFlow', mono: 'Tf' },
+      { name: 'Keras', mono: 'Ke' },
+      { name: 'Computer Vision', mono: 'Cv' },
+    ],
+  },
+  {
+    id: 'genai',
+    title: 'Generative AI',
+    subtitle: 'LLM-powered applications',
+    skills: [
+      { name: 'LLMs', mono: 'Ll' },
+      { name: 'LangChain', mono: 'Lc' },
+      { name: 'Multi-Agent Systems', mono: 'Ma' },
+      { name: 'Prompt Engineering', mono: 'Pe' },
+    ],
+  },
+  {
+    id: 'data',
+    title: 'Data Analysis & Tools',
+    subtitle: 'Analysis, visuals & workflow',
+    skills: [
+      { name: 'Pandas', mono: 'Pd' },
+      { name: 'NumPy', mono: 'Np' },
+      { name: 'Matplotlib', mono: 'Mp' },
+      { name: 'Seaborn', mono: 'Sb' },
+      { name: 'EDA', mono: 'Ed' },
       { name: 'Git / GitHub', mono: 'Gt' },
-      { name: 'Postman', mono: 'Pm' },
-    ],
-  },
-  {
-    id: 'databases',
-    title: 'Databases',
-    subtitle: 'Indexing • Normalization',
-    skills: [
-      { name: 'PostgreSQL', mono: 'Pg' },
-      { name: 'MongoDB', mono: 'Mg' },
-      { name: 'MySQL', mono: 'My' },
-    ],
-  },
-  {
-    id: 'fundamentals',
-    title: 'CS Fundamentals',
-    subtitle: 'The foundations',
-    skills: [
-      { name: 'DSA', mono: 'Ds' },
-      { name: 'OS', mono: 'Os' },
-      { name: 'CN', mono: 'Cn' },
-      { name: 'DBMS', mono: 'Db' },
-      { name: 'OOPs', mono: 'Oo' },
-      { name: 'Collections', mono: 'Co' },
-      { name: 'Multithreading', mono: 'Mt' },
-    ],
-  },
-  {
-    id: 'interests',
-    title: 'Interests',
-    subtitle: 'Coming soon to the series',
-    skills: [
-      { name: 'System Design', mono: 'Sd' },
-      { name: 'Cloud Computing (AWS)', mono: 'Aw' },
-      { name: 'Machine Learning', mono: 'Ml' },
+      { name: 'Jupyter Notebook', mono: 'Jn' },
     ],
   },
 ];
 
 /**
  * Factual cross-references shown when a skill card is hovered/tapped:
- * where the skill appears in the projects, certifications or achievements on the resume.
+ * where the skill appears in the projects, internships or achievements on the resume.
  */
 export const skillEvidence: Record<string, string[]> = {
-  Java: ['Oracle Java Certified Foundations Associate', 'HackerRank 5-star'],
-  Python: ['PolicyGuard AI', 'Cisco Python Essentials 1', 'HackerRank 5-star'],
-  C: ['HackerRank 5-star'],
-  React: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  HTML: ['Pearson IT Specialist – HTML and CSS', 'Cisco HTML Essentials'],
-  CSS: ['Pearson IT Specialist – HTML and CSS', 'Cisco CSS Essentials'],
-  JavaScript: ['Cisco JavaScript Essentials 1 & 2'],
-  'Node.js': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  'Express.js': ['Payment Gateway System'],
-  Docker: ['Payment Gateway System'],
-  'Docker Compose': ['Multi-Tenant SaaS Platform'],
-  'REST APIs': ['PolicyGuard AI'],
-  Microservices: ['Payment Gateway System'],
-  'JWT Auth': ['Multi-Tenant SaaS Platform'],
-  'Git / GitHub': ['GitHub Foundations'],
-  PostgreSQL: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  MongoDB: ['MongoDB Certified Associate Developer'],
-  DBMS: ['NPTEL Database Management System', 'Oracle Database Foundations'],
-  DSA: ['AlgoUniversity Tech Fellow', '850+ problems solved'],
-  'Cloud Computing (AWS)': ['AWS Certified AI Practitioner', 'AWS Academy Cloud Foundations'],
-  'Machine Learning': ['B.Tech AI & ML', 'NPTEL Deep Learning'],
+  Python: ['Finding Missing People Detection System', 'Multi-Agent AI Research System', 'AI Mock Interview Coach', 'AI Video Assistant'],
+  TensorFlow: ['Finding Missing People Detection System'],
+  'Computer Vision': ['Finding Missing People Detection System'],
+  CNNs: ['AI/ML Workshop (CNN image classification)'],
+  LangChain: ['Multi-Agent AI Research System'],
+  'Multi-Agent Systems': ['Multi-Agent AI Research System'],
+  LLMs: ['Multi-Agent AI Research System', 'AI Mock Interview Coach', 'AI Video Assistant'],
+  'Prompt Engineering': ['Google Prompting Essentials'],
+  EDA: ['Data Science Club Lead', 'YHills Data Science Certificate'],
+  'Git / GitHub': ['Data Science Club Lead (project mentoring)'],
 };
 
 export type Episode = {
@@ -412,7 +359,7 @@ export const seasons: Season[] = [
       {
         code: 'S01 E01',
         title: 'The Foundation',
-        description: 'Secondary Education, Class X at Oneness International School.',
+        description: 'Secondary Education, Class X at N.D.R.C. Government High School.',
         tags: ['Class X', 'Secondary'],
         runtime: '2019 – 2020',
         palette: amber,
@@ -544,16 +491,15 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Python', detail: 'Listed as primary on the resume • Oracle certified', palette: amber },
-  { label: 'The AI Original', title: 'PolicyGuard AI', detail: '500+ documents • 92% accuracy', palette: crimson },
-  { label: 'Biggest stage', title: 'Flipkart GRiD 7.0', detail: 'Semi-Finalist', palette: ocean },
-  { label: 'National selection', title: 'AlgoUniversity', detail: 'Tech Fellow', palette: violet },
-  { label: 'Academic high', title: 'Branch Topper', detail: '9.24 SGPA in AI & ML', palette: jade },
-  { label: 'Cloud credential', title: 'AWS AI Practitioner', detail: 'AWS Certified', palette: amber },
-  { label: 'Problems solved', title: '850+', detail: 'LeetCode 350+ • GFG 300+ • CodeChef 200+', palette: crimson },
-  { label: 'The training arc', title: '1 Year of FSD', detail: 'Technical Hub Pvt Ltd', palette: ocean },
-  { label: 'Database credential', title: 'MongoDB', detail: 'Certified Associate Developer', palette: jade },
-  { label: 'Current focus', title: 'System Design', detail: 'with Cloud (AWS) & Machine Learning', palette: violet },
+  { label: 'Primary language', title: 'Python', detail: 'Used in all four projects', palette: amber },
+  { label: 'The award winner', title: 'Best 3rd Year Project', detail: 'Finding Missing People Detection System', palette: crimson },
+  { label: 'Accuracy', title: '95%', detail: 'Identification accuracy on benchmark test datasets', palette: ocean },
+  { label: 'The agent builder', title: 'Multi-Agent AI', detail: 'LangChain research system', palette: violet },
+  { label: 'Experience', title: '2 Internships', detail: 'YHills Edutech • Simplilearn – SkillUp', palette: jade },
+  { label: 'Leadership', title: 'Data Science Club Lead', detail: '20+ members • 10+ teams mentored', palette: amber },
+  { label: 'Teaching', title: '150+ Students', detail: 'AI/ML workshop at the Technical Fest', palette: crimson },
+  { label: 'Academic', title: 'CGPA 8.6/10', detail: 'B.Tech CSE, CUTM', palette: ocean },
+  { label: 'Current focus', title: 'Generative AI', detail: 'LLMs, LangChain & prompt engineering', palette: violet },
 ];
 
 /** Slides for the "▶ Play Intro" cinematic sequence. */
@@ -562,17 +508,16 @@ export type IntroSlide = { kicker: string; title: string; lines: string[]; chips
 export const introSlides: IntroSlide[] = [
   {
     kicker: 'Education',
-    title: 'B.Tech · AI & ML',
-    lines: ['Centurion University of Technology and Management Bhubaneswar', 'October 2023 – Present'],
-    chips: ['CGPA 8.10'],
+    title: 'B.Tech · CSE',
+    lines: ['Centurion University of Technology and Management', '2023 – 2027'],
+    chips: ['CGPA 8.6/10'],
   },
   {
     kicker: 'Skills',
     title: 'Python first.',
-    lines: ['Python, C, C++ · React, Node.js, Express.js', 'PostgreSQL, MongoDB, MySQL · Docker, REST, JWT'],
-    chips: ['Python', 'Java', 'React', 'Node.js', 'Docker', 'PostgreSQL'],
+    lines: ['Python, SQL, Java, C · TensorFlow, Keras, Scikit-learn', 'LangChain, LLMs · Pandas, NumPy, Matplotlib'],
+    chips: ['Python', 'TensorFlow', 'LangChain', 'Scikit-learn', 'Pandas', 'SQL'],
   },
-  
   {
     kicker: 'Training',
     title: 'The Training Arc',
@@ -588,19 +533,14 @@ export const introSlides: IntroSlide[] = [
     title: 'Top Moments',
     lines: ['Best 3rd Year Project — Finding Missing People Detection', 'AI/ML Workshop Coordinator — 150+ students', 'Data Science Club Lead — 20+ members, 10+ teams mentored'],
   },
-  //{
-    //kicker: 'Certified',
-    //title: '16 Certifications',
-    //lines: ['AWS · MongoDB · Oracle · GitHub · Pearson', 'NPTEL · Cisco · Udemy'],
- // },
   {
     kicker: 'Current mission',
-    title: 'Now exploring',
-    lines: ['System Design · Cloud Computing (AWS) · Machine Learning'],
+    title: 'Now seeking',
+    lines: ['AI/ML and Data Science roles'],
   },
 ];
 
-export type ProfileId = 'Thomas' | 'recruiter' | 'developer' | 'creative';
+export type ProfileId = 'thomas' | 'recruiter' | 'developer' | 'creative';
 export type SectionId = 'about' | 'journey' | 'originals' | 'picks' | 'skills' | 'moments' | 'story';
 
 export const viewerProfiles: {
@@ -611,7 +551,7 @@ export const viewerProfiles: {
   order: SectionId[];
 }[] = [
   {
-    id: 'sushmita',
+    id: 'thomas',
     name: 'Thomas',
     blurb: 'The full series, in order',
     color: '#e5132b',
@@ -644,7 +584,7 @@ export const sectionMeta: Record<SectionId, { nav: string; card: string; meta: s
   about: { nav: 'About', card: 'About Me', meta: 'The Pilot • Education & training', palette: violet },
   journey: { nav: 'Journey', card: 'My Journey', meta: `${seasons.length} Seasons • ${seasons.reduce((n, s) => n + s.episodes.length, 0)} Episodes`, palette: amber },
   originals: { nav: 'Originals', card: 'My Projects', meta: `${projects.length} Originals • 2026`, palette: crimson },
-  picks: { nav: 'Top Picks', card: 'Top Picks', meta: 'Top 10 from the resume', palette: jade },
+  picks: { nav: 'Top Picks', card: 'Top Picks', meta: 'Highlights from the resume', palette: jade },
   skills: { nav: 'Skills', card: 'My Skills', meta: `${skillCategories.length} Categories`, palette: ocean },
   moments: { nav: 'Moments', card: 'My Achievements', meta: `${achievements.length} Moments • ${certifications.length} Certifications`, palette: crimson },
   story: { nav: 'Resume', card: 'The Full Story', meta: 'Resume • View & download', palette: violet },
